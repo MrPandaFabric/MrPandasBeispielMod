@@ -5,6 +5,7 @@ import net.elias.com.item.ModItemGroups;
 import net.elias.com.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,10 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();      // Mod Blocks
 
 		LOGGER.info("Hello Fabric world!");
+
+
+		//Register fuel items
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES,600);
+
 	}
 }
