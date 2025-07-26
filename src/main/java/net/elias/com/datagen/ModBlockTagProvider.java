@@ -22,6 +22,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_ORE)
                 .add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE)
                 .add(ModBlocks.RAW_PINK_GARNET_BLOCK)
+                .add(ModBlocks.PINK_GARNET_LAMP)
 
                 .add(ModBlocks.PINK_GARNET_DOOR)
                 .add(ModBlocks.PINK_GARNET_TRAPDOOR)
@@ -49,7 +50,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_PRESSURE_PLATE)
                 .add(ModBlocks.PINK_GARNET_WALL)
                 .add(ModBlocks.PINK_GARNET_FENCE)
-                .add(ModBlocks.PINK_GARNET_FENCE_GATE);
+                .add(ModBlocks.PINK_GARNET_FENCE_GATE)
+                .add(ModBlocks.PINK_GARNET_LAMP);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.PINK_GARNET_FENCE);

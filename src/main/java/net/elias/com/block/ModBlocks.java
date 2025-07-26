@@ -2,6 +2,7 @@ package net.elias.com.block;
 
 import net.elias.com.TutorialMod;
 import net.elias.com.block.custom.MagicBlock;
+import net.elias.com.block.custom.PinkGarnetLampBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.*;
@@ -57,7 +58,7 @@ public class ModBlocks {
         public static final Block PINK_GARNET_BUTTON = registerBlock("pink_garnet_button",
             new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(2f,2f).requiresTool().noCollision()));
 
-    public static final Block PINK_GARNET_PRESSURE_PLATE = registerBlock("pink_garnet_pressure_plate",
+         public static final Block PINK_GARNET_PRESSURE_PLATE = registerBlock("pink_garnet_pressure_plate",
             new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f,2f).requiresTool()));
 
        public static final Block PINK_GARNET_FENCE = registerBlock("pink_garnet_fence",
@@ -65,6 +66,10 @@ public class ModBlocks {
 
         public static final Block PINK_GARNET_FENCE_GATE = registerBlock("pink_garnet_fence_gate",
             new FenceGateBlock(WoodType.ACACIA,AbstractBlock.Settings.create().strength(2f,2f).requiresTool()));
+
+        public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
+                new PinkGarnetLampBlock(AbstractBlock.Settings.create()
+                        .strength(1f,1f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
 
     // Register helper function for blocks when they're in 3d block form (placed on the ground)
     private static Block registerBlock(String name, Block block) {
