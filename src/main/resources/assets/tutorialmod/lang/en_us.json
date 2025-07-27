@@ -10,6 +10,16 @@
   "item.tutorialmod.pink_garnet_shovel": "Pink Garnet Shovel",
   "item.tutorialmod.pink_garnet_hoe": "Pink Garnet Hoe",
   "item.tutorialmod.pink_garnet_sword": "Pink Garnet Sword",
+  "item.tutorialmod.pink_garnet_hammer": "Pink Garnet Hammer",
+
+  "item.tutorialmod.pink_garnet_helmet": "Pink Garnet Helmet",
+  "item.tutorialmod.pink_garnet_chestplate": "Pink Garnet Chestplate",
+  "item.tutorialmod.pink_garnet_leggins": "Pink Garnet Leggins",
+  "item.tutorialmod.pink_garnet_boots": "Pink Garnet Boots",
+
+  "item.tutorialmod.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
+
+  "item.tutorialmod.kaupen_armor_trim_smithing_template": "Kaupen Smithing Template",
 
 
   "block.tutorialmod.pink_garnet_block": "Pink Garnet Block",
@@ -40,5 +50,9 @@
   "tooltip.tutorialmod.chisel.shift_down": "This Item chisels blocks into Bricks or cleaner Variants! ",
   "tooltip.tutorialmod.chisel": "Press §eShift§r for more Information!",
 
-  "tooltip.tutorialmod.cauliflower": "This is delicious!"
+  "tooltip.tutorialmod.cauliflower": "This is delicious!",
+
+
+  "trim_material.tutorialmod.pink_garnet": "Pink Garnet Material",
+  "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Pattern"
 }

@@ -29,7 +29,15 @@ import net.minecraft.util.Identifier;
                             entries.add(ModItems.PINK_GARNET_HOE);
                             entries.add(ModItems.PINK_GARNET_SWORD);
                             entries.add(ModItems.PINK_GARNET_SHOVEL);
+                            entries.add(ModItems.PINK_GARNET_HAMMER);
 
+                            entries.add(ModItems.PINK_GARNET_HELMET);
+                            entries.add(ModItems.PINK_GARNET_CHESTPLATE);
+                            entries.add(ModItems.PINK_GARNET_LEGGINS);
+                            entries.add(ModItems.PINK_GARNET_BOOTS);
+
+                            entries.add(ModItems.PINK_GARNET_HORSE_ARMOR);
+                            entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
                         })
                         .build());
 
