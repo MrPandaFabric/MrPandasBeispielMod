@@ -2,9 +2,11 @@ package net.elias.com.item;
 
 import net.elias.com.TutorialMod;
 import net.elias.com.block.ModBlocks;
+import net.elias.com.tutorialmod.potion.ModPotions;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -42,6 +44,7 @@ import net.elias.com.item.ModItems;
                             entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
 
                             entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
                         })
                         .build());
 
