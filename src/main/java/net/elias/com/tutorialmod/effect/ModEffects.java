@@ -10,8 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 
-public class Modeffects {
-    public static final RegistryEntry<StatusEffect> Slimey = registerStatusEffect("slimey",
+public class ModEffects {
+    public static final RegistryEntry<StatusEffect> SLIMEY = registerStatusEffect("slimey",
             new SlimeyEffect(StatusEffectCategory.NEUTRAL, 0x36ebab)
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
                             Identifier.of(TutorialMod.MOD_ID, "slimey"), -0.25f,
