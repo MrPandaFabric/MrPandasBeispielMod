@@ -57,7 +57,7 @@ public class TutorialMod implements ModInitializer {
 
 			return ActionResult.PASS;
 		});
-
+		// Adding Potion-Receipe
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
 			builder.registerPotionRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION)
 			;
