@@ -5,6 +5,7 @@ import net.elias.com.component.ModDataComponentTypes;
 import net.elias.com.item.ModItemGroups;
 import net.elias.com.item.ModItems;
 import net.elias.com.tutorialmod.effect.ModEffects;
+import net.elias.com.tutorialmod.enchantment.ModEnchantmentsEffects;
 import net.elias.com.tutorialmod.potion.ModPotions;
 import net.elias.com.tutorialmod.sound.ModSounds;
 import net.elias.com.tutorialmod.util.HammerUsageEvent;
@@ -37,6 +38,7 @@ public class TutorialMod implements ModInitializer {
 		ModSounds.registerSounds();
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
+		ModEnchantmentsEffects.registerEnchantmentEffects();
 
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);

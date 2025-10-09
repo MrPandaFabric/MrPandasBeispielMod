@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-09T17:02:30.5438606	TutorialMod/Model Definitions
+// 1.21.1	2025-10-09T20:30:02.3592821	TutorialMod/Model Definitions
 c7e2ca3b8d04b243bdb94ed79fc421f28ba5bf6f assets\tutorialmod\models\item\pink_garnet_sword.json
 075aaf508b49bdfdaa57190d55305cd61ad0a87b assets\tutorialmod\models\item\pink_garnet_chestplate_emerald_trim.json
 fa9080666ba4e3910d0814ec35a3e300f861fb1c assets\tutorialmod\models\item\starlight_ashes.json
@@ -102,8 +102,8 @@ dcb8c72e5f3b703f9f0ef355f6d347e50c94b4db assets\tutorialmod\models\block\pink_ga
 14a77355431941873ff0d6076b9d11f952e48e83 assets\tutorialmod\models\item\pink_garnet_helmet_copper_trim.json
 4a5771fc3ccc1082b38908b254bd276abf6e9c22 assets\tutorialmod\models\item\pink_garnet_leggins_quartz_trim.json
 4fe9fa23226435c3f041c1cae65a76d00c41679b assets\tutorialmod\models\item\pink_garnet_leggins_copper_trim.json
-8d78b866bd5c4782e72d22f2bf83140a407bb550 assets\tutorialmod\models\block\pink_garnet_door_bottom_right.json
 e10ed0f44080df33ec18cbea1e4ca95ffa54b62f assets\tutorialmod\models\item\pink_garnet_button.json
+8d78b866bd5c4782e72d22f2bf83140a407bb550 assets\tutorialmod\models\block\pink_garnet_door_bottom_right.json
 149fe694563e9829ab159973ffcd4fe467818d0a assets\tutorialmod\models\item\pink_garnet_chestplate_lapis_trim.json
 42627d41800e3c1e20bc9512dd41a9caec80ec02 assets\tutorialmod\models\item\pink_garnet_chestplate_quartz_trim.json
 2d6beef04b0d62bbe5ea8ec6bcf8cb0ff7ee6b61 assets\tutorialmod\models\block\pink_garnet_fence_gate.json
