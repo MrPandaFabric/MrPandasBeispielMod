@@ -12,6 +12,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.elias.com.item.ModFoodComponents;
+import net.elias.com.item.ModToolMaterials;
+import net.elias.com.item.ModArmorMaterials;
 
 import java.util.List;
 
@@ -47,11 +50,11 @@ public class ModItems {
             new AxeItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 6,-3.2f))));
 
-      public static final Item PINK_GARNET_SHOVEL = registerItem("pink_garnet_shovel",
+    public static final Item PINK_GARNET_SHOVEL = registerItem("pink_garnet_shovel",
             new ShovelItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 1.5f,-3.0f))));
 
-      public static final Item PINK_GARNET_HOE = registerItem("pink_garnet_hoe",
+    public static final Item PINK_GARNET_HOE = registerItem("pink_garnet_hoe",
             new HoeItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 0,-3.0f))));
 

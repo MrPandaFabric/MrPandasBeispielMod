@@ -3,6 +3,7 @@ package net.elias.com.block;
 import net.elias.com.TutorialMod;
 import net.elias.com.block.custom.MagicBlock;
 import net.elias.com.block.custom.PinkGarnetLampBlock;
+import net.elias.com.tutorialmod.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.*;
@@ -36,7 +37,7 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1f, 3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
-            new MagicBlock(AbstractBlock.Settings.create().strength(1f,1f).requiresTool()));
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f,1f).requiresTool().sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
             new StairsBlock(ModBlocks.PINK_GARNET_BLOCK.getDefaultState(),
