@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.elias.com.item.ModItems;
 
     public class ModItemGroups {
 
@@ -39,6 +40,8 @@ import net.minecraft.util.Identifier;
 
                             entries.add(ModItems.PINK_GARNET_HORSE_ARMOR);
                             entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
+
+                            entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                         })
                         .build());
 

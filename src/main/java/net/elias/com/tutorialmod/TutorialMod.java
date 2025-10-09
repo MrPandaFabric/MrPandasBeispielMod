@@ -4,6 +4,7 @@ import net.elias.com.block.ModBlocks;
 import net.elias.com.component.ModDataComponentTypes;
 import net.elias.com.item.ModItemGroups;
 import net.elias.com.item.ModItems;
+import net.elias.com.tutorialmod.effect.Modeffects;
 import net.elias.com.tutorialmod.sound.ModSounds;
 import net.elias.com.tutorialmod.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
@@ -31,6 +32,7 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModDataComponentTypes.registerDataComponentTypes();
 		ModSounds.registerSounds();
+		Modeffects.registerEffects();
 
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
