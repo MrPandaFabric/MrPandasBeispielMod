@@ -4,7 +4,7 @@ import net.elias.com.block.ModBlocks;
 import net.elias.com.component.ModDataComponentTypes;
 import net.elias.com.item.ModItemGroups;
 import net.elias.com.item.ModItems;
-import net.elias.com.util.HammerUsageEvent;
+import net.elias.com.tutorialmod.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
@@ -25,31 +25,26 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		//	Registering all mod assets
-		ModItemGroups.registerItemGroups(); // Creative Mode Item Group
-		ModItems.registerModItems();        // Mod Items
-		ModBlocks.registerModBlocks();      // Mod Blocks
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		ModDataComponentTypes.registerDataComponentTypes();
 
-		LOGGER.info("Hello Fabric world!");
-
-
-		//Register fuel items
-		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES,600);
-
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
-
-		AttackEntityCallback.EVENT.register((playerEntity, world, hand, entity, entityHitResult) -> {
-			if (entity instanceof SheepEntity sheepEntity && !world.isClient) {
-				if (playerEntity.getMainHandStack().getItem() == Items.END_ROD) {
-					playerEntity.sendMessage(Text.literal("The Player just hit a Sheep with an END ROD! YOU SICK FRICK!"));
-					playerEntity.getMainHandStack().decrement(1);
-					sheepEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 500,6));
+		AttackEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
+			if(entity instanceof SheepEntity sheepEntity) {
+				if(player.getMainHandStack().getItem() == Items.END_ROD) {
+					player.sendMessage(Text.literal("The Player just hit a sheep with an END ROD! YOU SICK FRICK!"));
+					player.getMainHandStack().decrement(1);
+					sheepEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 600, 6));
 				}
+
+				return ActionResult.PASS;
 			}
 
-            return ActionResult.PASS;
-        });
+			return ActionResult.PASS;
+		});
 	}
-}
+};

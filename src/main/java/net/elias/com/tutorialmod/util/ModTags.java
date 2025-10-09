@@ -1,4 +1,4 @@
-package net.elias.com.util;
+package net.elias.com.tutorialmod.util;
 
 import net.elias.com.TutorialMod;
 import net.minecraft.block.Block;

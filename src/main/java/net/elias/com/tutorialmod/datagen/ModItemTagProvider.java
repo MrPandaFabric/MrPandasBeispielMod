@@ -1,7 +1,7 @@
 package net.elias.com.datagen;
 
 import net.elias.com.item.ModItems;
-import net.elias.com.util.ModTags;
+import net.elias.com.tutorialmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Items;

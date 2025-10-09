@@ -1,4 +1,4 @@
-package net.elias.com.util;
+package net.elias.com.tutorialmod.util;
 
 import net.elias.com.item.custom.HammerItem;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;

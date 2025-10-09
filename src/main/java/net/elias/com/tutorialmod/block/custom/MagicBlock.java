@@ -1,7 +1,6 @@
 package net.elias.com.block.custom;
 
-import net.elias.com.item.ModItems;
-import net.elias.com.util.ModTags;
+import net.elias.com.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;

@@ -1,7 +1,7 @@
 package net.elias.com;
 
 import net.elias.com.block.ModBlocks;
-import net.elias.com.util.ModModelPredicates;
+import net.elias.com.tutorialmod.util.ModModelPredicates;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;

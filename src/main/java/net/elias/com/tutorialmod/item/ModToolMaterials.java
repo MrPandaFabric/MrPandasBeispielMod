@@ -1,17 +1,12 @@
 package net.elias.com.item;
 
 import com.google.common.base.Suppliers;
-import net.elias.com.util.ModTags;
+import net.elias.com.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 
-import java.util.Objects;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
