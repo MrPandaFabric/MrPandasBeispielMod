@@ -2,6 +2,7 @@ package net.elias.com.tutorialmod.item;
 
 import net.elias.com.item.custom.ModArmorItem;
 import net.elias.com.tutorialmod.TutorialMod;
+import net.elias.com.tutorialmod.block.ModBlocks;
 import net.elias.com.tutorialmod.item.custom.ChiselItem;
 import net.elias.com.tutorialmod.item.custom.HammerItem;
 import net.elias.com.tutorialmod.sound.ModSounds;
@@ -94,6 +95,10 @@ public class ModItems {
 
     public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
+
+
+    public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
+            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));
 
 
 

@@ -1,6 +1,7 @@
 package net.elias.com.tutorialmod.datagen;
 
 import net.elias.com.tutorialmod.block.ModBlocks;
+import net.elias.com.tutorialmod.block.custom.CauliflowerCropBlock;
 import net.elias.com.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.elias.com.tutorialmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -38,6 +39,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.PINK_GARNET_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.PINK_GARNET_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(PinkGarnetLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
     }
 
     @Override

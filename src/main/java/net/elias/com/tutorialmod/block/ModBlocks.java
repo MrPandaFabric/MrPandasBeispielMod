@@ -1,11 +1,13 @@
 package net.elias.com.tutorialmod.block;
 
 import net.elias.com.tutorialmod.TutorialMod;
+import net.elias.com.tutorialmod.block.custom.CauliflowerCropBlock;
 import net.elias.com.tutorialmod.block.custom.MagicBlock;
 import net.elias.com.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.elias.com.tutorialmod.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -71,6 +73,16 @@ public class ModBlocks {
         public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
                 new PinkGarnetLampBlock(AbstractBlock.Settings.create()
                         .strength(1f,1f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
+
+
+    public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
+            new CauliflowerCropBlock(AbstractBlock.Settings.create().noCollision()
+                    .ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY).mapColor(MapColor.DARK_GREEN)));
+
+    // Register helper function for blocks when they're in 3d block form without item (placed on the ground)
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, name), block);
+    }
 
     // Register helper function for blocks when they're in 3d block form (placed on the ground)
     private static Block registerBlock(String name, Block block) {
