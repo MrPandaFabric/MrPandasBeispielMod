@@ -1,8 +1,9 @@
-// 1.21.1	2025-12-04T16:16:51.8641963	TutorialMod/Block Loot Tables
+// 1.21.1	2025-12-04T17:49:16.3651662	TutorialMod/Block Loot Tables
 cedbc7c7be44e1b0df48ece4790b5266a35f2b72 data\tutorialmod\loot_table\blocks\pink_garnet_slab.json
 a8a175045f0d3d679e9afac5111d25b6d0b78ab7 data\tutorialmod\loot_table\blocks\pink_garnet_deepslate_ore.json
 1382e8045641fe6784d8535d113c80a6028a5ace data\tutorialmod\loot_table\blocks\pink_garnet_pressure_plate.json
 cbb358d78cd57da58c907a35212d486fa6f68efa data\tutorialmod\loot_table\blocks\magic_block.json
+f40ffe04abee684dbf45e9dbecffc8535b0237ac data\tutorialmod\loot_table\blocks\honey_berry_bush.json
 c524d99e89d1a6b91131c503e69d1343642df802 data\tutorialmod\loot_table\blocks\raw_pink_garnet_block.json
 20c1b94f16da89972e44952293dc87c35d46d12c data\tutorialmod\loot_table\blocks\pink_garnet_block.json
 574a89ee1b10a8e85c7f90b61a61c3dd6edeb638 data\tutorialmod\loot_table\blocks\pink_garnet_trapdoor.json

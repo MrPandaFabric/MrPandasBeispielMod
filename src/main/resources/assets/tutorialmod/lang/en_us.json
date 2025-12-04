@@ -4,7 +4,10 @@
   "item.tutorialmod.chisel": "Chisel",
   "item.tutorialmod.cauliflower": "Cauliflower",
   "item.tutorialmod.starlight_ashes": "Starlight Ashes",
+
+  
   "item.tutorialmod.cauliflower_seeds": "Cauliflower Seeds",
+  "item.tutorialmod.honey_berries": "Honey Berries",
 
   "item.tutorialmod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
   "item.tutorialmod.pink_garnet_axe": "Pink Garnet Axe ",
@@ -31,6 +34,7 @@
   "block.tutorialmod.magic_block": "Magic Block",
   "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp",
   "block.tutorialmod.cauliflower_crop": "Cauliflower Crop",
+  "block.tutorialmod.honey_berry_bush": "Honey Berry Bush",
 
 
   "block.tutorialmod.pink_garnet_door": "Pink Garnet Door",

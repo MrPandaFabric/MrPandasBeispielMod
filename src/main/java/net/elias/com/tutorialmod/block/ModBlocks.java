@@ -2,6 +2,7 @@ package net.elias.com.tutorialmod.block;
 
 import net.elias.com.tutorialmod.TutorialMod;
 import net.elias.com.tutorialmod.block.custom.CauliflowerCropBlock;
+import net.elias.com.tutorialmod.block.custom.HoneyBerryBushBlock;
 import net.elias.com.tutorialmod.block.custom.MagicBlock;
 import net.elias.com.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.elias.com.tutorialmod.sound.ModSounds;
@@ -38,8 +39,10 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(5, 8),
                     AbstractBlock.Settings.create().strength(1f, 3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f,1f).requiresTool().sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
+
 
     public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
             new StairsBlock(ModBlocks.PINK_GARNET_BLOCK.getDefaultState(),
@@ -70,6 +73,7 @@ public class ModBlocks {
         public static final Block PINK_GARNET_FENCE_GATE = registerBlock("pink_garnet_fence_gate",
             new FenceGateBlock(WoodType.ACACIA,AbstractBlock.Settings.create().strength(2f,2f).requiresTool()));
 
+
         public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
                 new PinkGarnetLampBlock(AbstractBlock.Settings.create()
                         .strength(1f,1f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
@@ -78,6 +82,10 @@ public class ModBlocks {
     public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
             new CauliflowerCropBlock(AbstractBlock.Settings.create().noCollision()
                     .ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY).mapColor(MapColor.DARK_GREEN)));
+
+
+    public static final Block HONEY_BERRY_BUSH = registerBlockWithoutBlockItem("honey_berry_bush",
+           new HoneyBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
     // Register helper function for blocks when they're in 3d block form without item (placed on the ground)
     private static Block registerBlockWithoutBlockItem(String name, Block block) {

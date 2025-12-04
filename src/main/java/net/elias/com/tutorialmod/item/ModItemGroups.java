@@ -27,6 +27,7 @@ import net.minecraft.util.Identifier;
                             entries.add(ModItems.CAULIFLOWER);
                             entries.add(ModItems.STARLIGHT_ASHES);
                             entries.add(ModItems.CAULIFLOWER_SEEDS);
+                            entries.add(ModItems.HONEY_BERRIES);
 
                             entries.add(ModItems.PINK_GARNET_PICKAXE);
                             entries.add(ModItems.PINK_GARNET_AXE);
