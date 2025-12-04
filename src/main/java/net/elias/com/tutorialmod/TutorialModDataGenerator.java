@@ -4,10 +4,13 @@ import net.elias.com.tutorialmod.datagen.*;
 import net.elias.com.tutorialmod.enchantment.ModEnchantments;
 import net.elias.com.tutorialmod.trim.ModTrimMaterials;
 import net.elias.com.tutorialmod.trim.ModTrimPatterns;
+import net.elias.com.tutorialmod.world.ModConfiguredFeatures;
+import net.elias.com.tutorialmod.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
 
 public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -27,6 +30,9 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 		registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+
 	}
 
 }

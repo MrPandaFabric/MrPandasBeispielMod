@@ -9,6 +9,7 @@ import net.elias.com.tutorialmod.item.ModItems;
 import net.elias.com.tutorialmod.potion.ModPotions;
 import net.elias.com.tutorialmod.sound.ModSounds;
 import net.elias.com.tutorialmod.util.HammerUsageEvent;
+import net.elias.com.tutorialmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
@@ -40,6 +41,7 @@ public class TutorialMod implements ModInitializer {
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
 		ModEnchantmentsEffects.registerEnchantmentEffects();
+		ModWorldGeneration.generateModWorldGen();
 
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
