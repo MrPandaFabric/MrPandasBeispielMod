@@ -1,7 +1,7 @@
-package net.elias.com.mixin;
+package net.elias.com.tutorialmod.mixin;
 
 import com.mojang.authlib.GameProfile;
-import net.elias.com.item.ModItems;
+import net.elias.com.tutorialmod.item.ModItems;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;

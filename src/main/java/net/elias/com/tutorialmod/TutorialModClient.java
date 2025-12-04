@@ -1,6 +1,6 @@
-package net.elias.com;
+package net.elias.com.tutorialmod;
 
-import net.elias.com.block.ModBlocks;
+import net.elias.com.tutorialmod.block.ModBlocks;
 import net.elias.com.tutorialmod.util.ModModelPredicates;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;

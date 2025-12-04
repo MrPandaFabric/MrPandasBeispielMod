@@ -1,4 +1,4 @@
-package net.elias.com.item.custom;
+package net.elias.com.tutorialmod.item.custom;
 
 import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;

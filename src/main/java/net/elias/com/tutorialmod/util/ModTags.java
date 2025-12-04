@@ -1,6 +1,6 @@
 package net.elias.com.tutorialmod.util;
 
-import net.elias.com.TutorialMod;
+import net.elias.com.tutorialmod.TutorialMod;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;

@@ -1,11 +1,11 @@
-package net.elias.com;
+package net.elias.com.tutorialmod;
 
-import net.elias.com.block.ModBlocks;
-import net.elias.com.component.ModDataComponentTypes;
-import net.elias.com.item.ModItemGroups;
-import net.elias.com.item.ModItems;
+import net.elias.com.tutorialmod.block.ModBlocks;
+import net.elias.com.tutorialmod.component.ModDataComponentTypes;
 import net.elias.com.tutorialmod.effect.ModEffects;
 import net.elias.com.tutorialmod.enchantment.ModEnchantmentsEffects;
+import net.elias.com.tutorialmod.item.ModItemGroups;
+import net.elias.com.tutorialmod.item.ModItems;
 import net.elias.com.tutorialmod.potion.ModPotions;
 import net.elias.com.tutorialmod.sound.ModSounds;
 import net.elias.com.tutorialmod.util.HammerUsageEvent;

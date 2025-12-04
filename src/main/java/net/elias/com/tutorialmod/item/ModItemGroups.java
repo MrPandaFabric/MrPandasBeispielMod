@@ -1,7 +1,7 @@
-package net.elias.com.item;
+package net.elias.com.tutorialmod.item;
 
-import net.elias.com.TutorialMod;
-import net.elias.com.block.ModBlocks;
+import net.elias.com.tutorialmod.TutorialMod;
+import net.elias.com.tutorialmod.block.ModBlocks;
 import net.elias.com.tutorialmod.potion.ModPotions;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -11,7 +11,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.elias.com.item.ModItems;
 
     public class ModItemGroups {
 

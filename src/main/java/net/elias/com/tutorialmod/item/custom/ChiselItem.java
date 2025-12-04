@@ -1,7 +1,7 @@
-package net.elias.com.item.custom;
+package net.elias.com.tutorialmod.item.custom;
 
-import net.elias.com.block.ModBlocks;
-import net.elias.com.component.ModDataComponentTypes;
+import net.elias.com.tutorialmod.block.ModBlocks;
+import net.elias.com.tutorialmod.component.ModDataComponentTypes;
 import net.elias.com.tutorialmod.sound.ModSounds;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

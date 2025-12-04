@@ -1,6 +1,6 @@
-package net.elias.com.datagen;
+package net.elias.com.tutorialmod.datagen;
 
-import net.elias.com.block.ModBlocks;
+import net.elias.com.tutorialmod.block.ModBlocks;
 import net.elias.com.tutorialmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;

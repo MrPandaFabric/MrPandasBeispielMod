@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.elias.com.TutorialMod"
+			"net.elias.com.tutorialmod.TutorialMod"
 		],
 		"fabric-datagen": [
-			"net.elias.com.TutorialModDataGenerator"
+			"net.elias.com.tutorialmod.TutorialModDataGenerator"
 		],
 		"client": [
-			"net.elias.com.TutorialModClient"
+			"net.elias.com.tutorialmod.TutorialModClient"
 		]
 	},
 	"mixins": [

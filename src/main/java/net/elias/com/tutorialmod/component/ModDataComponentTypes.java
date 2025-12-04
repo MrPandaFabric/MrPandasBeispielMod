@@ -1,6 +1,6 @@
-package net.elias.com.component;
+package net.elias.com.tutorialmod.component;
 
-import net.elias.com.TutorialMod;
+import net.elias.com.tutorialmod.TutorialMod;
 import net.minecraft.component.ComponentType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

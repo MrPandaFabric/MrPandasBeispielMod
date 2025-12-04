@@ -1,8 +1,8 @@
 package net.elias.com.tutorialmod.util;
 
-import net.elias.com.TutorialMod;
-import net.elias.com.component.ModDataComponentTypes;
-import net.elias.com.item.ModItems;
+import net.elias.com.tutorialmod.TutorialMod;
+import net.elias.com.tutorialmod.component.ModDataComponentTypes;
+import net.elias.com.tutorialmod.item.ModItems;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;

@@ -1,6 +1,7 @@
-package net.elias.com.item;
+package net.elias.com.tutorialmod.item;
 
-import net.elias.com.TutorialMod;
+import net.elias.com.tutorialmod.TutorialMod;
+import net.elias.com.tutorialmod.item.ModItems;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;

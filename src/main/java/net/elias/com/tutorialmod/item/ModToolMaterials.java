@@ -1,4 +1,4 @@
-package net.elias.com.item;
+package net.elias.com.tutorialmod.item;
 
 import com.google.common.base.Suppliers;
 import net.elias.com.tutorialmod.util.ModTags;

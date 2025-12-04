@@ -1,8 +1,8 @@
-package net.elias.com.block;
+package net.elias.com.tutorialmod.block;
 
-import net.elias.com.TutorialMod;
-import net.elias.com.block.custom.MagicBlock;
-import net.elias.com.block.custom.PinkGarnetLampBlock;
+import net.elias.com.tutorialmod.TutorialMod;
+import net.elias.com.tutorialmod.block.custom.MagicBlock;
+import net.elias.com.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.elias.com.tutorialmod.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;

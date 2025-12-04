@@ -1,6 +1,6 @@
 package net.elias.com.tutorialmod.effect;
 
-import net.elias.com.TutorialMod;
+import net.elias.com.tutorialmod.TutorialMod;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.effect.StatusEffect;

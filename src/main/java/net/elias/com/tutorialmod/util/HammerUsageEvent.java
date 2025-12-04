@@ -1,6 +1,6 @@
 package net.elias.com.tutorialmod.util;
 
-import net.elias.com.item.custom.HammerItem;
+import net.elias.com.tutorialmod.item.custom.HammerItem;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;

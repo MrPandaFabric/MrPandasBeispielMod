@@ -1,9 +1,9 @@
-package net.elias.com;
+package net.elias.com.tutorialmod;
 
-import net.elias.com.datagen.*;
-import net.elias.com.trim.ModTrimMaterials;
-import net.elias.com.trim.ModTrimPatterns;
+import net.elias.com.tutorialmod.datagen.*;
 import net.elias.com.tutorialmod.enchantment.ModEnchantments;
+import net.elias.com.tutorialmod.trim.ModTrimMaterials;
+import net.elias.com.tutorialmod.trim.ModTrimPatterns;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;

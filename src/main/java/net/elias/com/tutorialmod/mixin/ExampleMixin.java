@@ -1,4 +1,4 @@
-package net.elias.com.mixin;
+package net.elias.com.tutorialmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

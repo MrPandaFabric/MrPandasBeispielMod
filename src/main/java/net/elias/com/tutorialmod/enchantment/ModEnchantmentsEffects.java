@@ -1,7 +1,7 @@
 package net.elias.com.tutorialmod.enchantment;
 
 import com.mojang.serialization.MapCodec;
-import net.elias.com.TutorialMod;
+import net.elias.com.tutorialmod.TutorialMod;
 import net.elias.com.tutorialmod.enchantment.custom.LightningStrikerEnchantmentEffect;
 import net.minecraft.enchantment.effect.EnchantmentEntityEffect;
 import net.minecraft.registry.Registries;

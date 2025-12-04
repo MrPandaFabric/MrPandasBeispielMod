@@ -1,6 +1,6 @@
 package net.elias.com.tutorialmod.enchantment;
 
-import net.elias.com.TutorialMod;
+import net.elias.com.tutorialmod.TutorialMod;
 import net.elias.com.tutorialmod.enchantment.custom.LightningStrikerEnchantmentEffect;
 import net.minecraft.component.EnchantmentEffectComponentTypes;
 import net.minecraft.component.type.AttributeModifierSlot;

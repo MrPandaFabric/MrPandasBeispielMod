@@ -1,4 +1,4 @@
-package net.elias.com.block.custom;
+package net.elias.com.tutorialmod.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

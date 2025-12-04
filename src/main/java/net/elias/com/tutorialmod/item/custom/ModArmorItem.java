@@ -1,7 +1,8 @@
 package net.elias.com.item.custom;
 
 import com.google.common.collect.ImmutableMap;
-import net.elias.com.item.ModArmorMaterials;
+
+import net.elias.com.tutorialmod.item.ModArmorMaterials;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

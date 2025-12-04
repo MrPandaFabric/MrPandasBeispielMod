@@ -1,4 +1,4 @@
-package net.elias.com.block.custom;
+package net.elias.com.tutorialmod.block.custom;
 
 import net.elias.com.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;

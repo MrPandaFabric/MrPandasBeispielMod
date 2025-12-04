@@ -1,8 +1,8 @@
-package net.elias.com.datagen;
+package net.elias.com.tutorialmod.datagen;
 
-import net.elias.com.block.ModBlocks;
-import net.elias.com.block.custom.PinkGarnetLampBlock;
-import net.elias.com.item.ModItems;
+import net.elias.com.tutorialmod.block.ModBlocks;
+import net.elias.com.tutorialmod.block.custom.PinkGarnetLampBlock;
+import net.elias.com.tutorialmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;

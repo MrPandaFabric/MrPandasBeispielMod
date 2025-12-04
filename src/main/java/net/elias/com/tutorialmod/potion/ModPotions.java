@@ -1,6 +1,6 @@
 package net.elias.com.tutorialmod.potion;
 
-import net.elias.com.TutorialMod;
+import net.elias.com.tutorialmod.TutorialMod;
 import net.elias.com.tutorialmod.effect.ModEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.potion.Potion;

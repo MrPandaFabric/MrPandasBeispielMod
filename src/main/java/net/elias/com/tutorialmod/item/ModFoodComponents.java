@@ -1,4 +1,4 @@
-package net.elias.com.item;
+package net.elias.com.tutorialmod.item;
 
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;

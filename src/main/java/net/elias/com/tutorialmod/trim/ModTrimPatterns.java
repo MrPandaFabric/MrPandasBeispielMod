@@ -1,8 +1,8 @@
-package net.elias.com.trim;
+package net.elias.com.tutorialmod.trim;
 
 
-import net.elias.com.TutorialMod;
-import net.elias.com.item.ModItems;
+import net.elias.com.tutorialmod.TutorialMod;
+import net.elias.com.tutorialmod.item.ModItems;
 import net.minecraft.item.Item;
 import net.minecraft.item.trim.ArmorTrimPattern;
 import net.minecraft.registry.Registerable;
