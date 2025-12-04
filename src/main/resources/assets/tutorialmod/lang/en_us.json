@@ -5,7 +5,7 @@
   "item.tutorialmod.cauliflower": "Cauliflower",
   "item.tutorialmod.starlight_ashes": "Starlight Ashes",
 
-  
+
   "item.tutorialmod.cauliflower_seeds": "Cauliflower Seeds",
   "item.tutorialmod.honey_berries": "Honey Berries",
 
@@ -29,10 +29,18 @@
 
   "block.tutorialmod.pink_garnet_block": "Pink Garnet Block",
   "block.tutorialmod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+
+
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+  "block.tutorialmod.pink_garnet_end_ore": "Pink Garnet End Ore",
+  "block.tutorialmod.pink_garnet_nether_ore": "Pink Garnet Nether Ore",
+
+
   "block.tutorialmod.magic_block": "Magic Block",
   "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp",
+
+
   "block.tutorialmod.cauliflower_crop": "Cauliflower Crop",
   "block.tutorialmod.honey_berry_bush": "Honey Berry Bush",
 

@@ -23,21 +23,30 @@ public class ModBlocks {
 
     // Pink Garnet Block
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
-            new Block(AbstractBlock.Settings.create().strength(1f, 6f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     // Raw Pink Garnet Block
     public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
-            new Block(AbstractBlock.Settings.create().strength(1f, 3f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
 
     // Garnet Ore
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
-                    AbstractBlock.Settings.create().strength(1f, 3f).requiresTool().sounds(BlockSoundGroup.STONE)));
+                    AbstractBlock.Settings.create().strength(1f, 1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     // Garnet Deepslate Ore
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(5, 8),
-                    AbstractBlock.Settings.create().strength(1f, 3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().strength(1f, 1f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block PINK_GARNET_END_ORE = registerBlock("pink_garnet_end_ore",
+           new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                   AbstractBlock.Settings.create().strength(4f, 1f).requiresTool()));
+
+public static final Block PINK_GARNET_NETHER_ORE = registerBlock("pink_garnet_nether_ore",
+           new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                   AbstractBlock.Settings.create().strength(3f, 1f).requiresTool()));
 
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
