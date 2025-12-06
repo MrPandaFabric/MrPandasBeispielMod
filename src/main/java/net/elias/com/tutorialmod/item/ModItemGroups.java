@@ -47,6 +47,8 @@ import net.minecraft.util.Identifier;
 
                             entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
 
+                            entries.add(ModBlocks.DRIFTWOOD_SAPLING);
+
                         })
                         .build());
 
@@ -62,10 +64,12 @@ import net.minecraft.util.Identifier;
                             entries.add(ModBlocks.PINK_GARNET_LAMP);
                             entries.add(ModBlocks.MAGIC_BLOCK);
 
+
                             entries.add(ModBlocks.PINK_GARNET_ORE);
                             entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
                             entries.add(ModBlocks.PINK_GARNET_END_ORE);
                             entries.add(ModBlocks.PINK_GARNET_NETHER_ORE);
+
 
                             entries.add(ModBlocks.PINK_GARNET_DOOR);
                             entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
@@ -76,6 +80,18 @@ import net.minecraft.util.Identifier;
                             entries.add(ModBlocks.PINK_GARNET_BUTTON);
                             entries.add(ModBlocks.PINK_GARNET_WALL);
                             entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+
+
+                            entries.add(ModBlocks.DRIFTWOOD_LEAVES);
+                            entries.add(ModBlocks.DRIFTWOOD_LOG);
+                            entries.add(ModBlocks.STRIPPED_DRIFTWOOD_LOG);
+                            entries.add(ModBlocks.DRIFTWOOD_WOOD);
+                            entries.add(ModBlocks.STRIPPED_DRIFTWOOD_WOOD);
+
+                            entries.add(ModBlocks.DRIFTWOOD_SAPLING);
+
+
+
 
                         })
                         .build());

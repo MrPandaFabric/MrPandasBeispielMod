@@ -9,6 +9,7 @@
   "item.tutorialmod.cauliflower_seeds": "Cauliflower Seeds",
   "item.tutorialmod.honey_berries": "Honey Berries",
 
+
   "item.tutorialmod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
   "item.tutorialmod.pink_garnet_axe": "Pink Garnet Axe ",
   "item.tutorialmod.pink_garnet_shovel": "Pink Garnet Shovel",
@@ -43,6 +44,15 @@
 
   "block.tutorialmod.cauliflower_crop": "Cauliflower Crop",
   "block.tutorialmod.honey_berry_bush": "Honey Berry Bush",
+
+
+  "block.tutorialmod.driftwood_log": "Driftwood Log",
+  "block.tutorialmod.driftwood_wood": "Driftwood Wood",
+  "block.tutorialmod.stripped_driftwood_log": "Stripped Driftwood Log",
+  "block.tutorialmod.stripped_driftwood_wood": "Stripped Driftwood Wood",
+  "block.tutorialmod.driftwood_planks": "Driftwood Planks",
+  "block.tutorialmod.driftwood_leaves": "Driftwood Leaves",
+  "block.tutorialmod.driftwood_sapling": "Driftwood Sapling",
 
 
   "block.tutorialmod.pink_garnet_door": "Pink Garnet Door",
